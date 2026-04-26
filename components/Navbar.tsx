@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
-            <Image src="/da.png" alt="Newton IPTV" width={220} height={75} className="h-16 w-auto object-contain" priority />
+            <Image src="/da.png" alt="Newton IPTV" width={0} height={0} sizes="100vw" className="h-24 w-auto object-contain" priority />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
