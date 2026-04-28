@@ -49,8 +49,16 @@ export const metadata: Metadata = {
     description: "20,000+ live channels, 80,000+ VOD in 4K. Best IPTV UK. Try free 24 hours – no credit card.",
     images: ["/og-image.png"],
   },
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
   robots: { index: true, follow: true },
   metadataBase: new URL("https://newtoniptv.com"),
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
