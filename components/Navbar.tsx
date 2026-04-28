@@ -17,9 +17,10 @@ export default function Navbar() {
   return (
     <nav className="animate-nav sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-brand-border shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-2">
           <Link href="/" className="flex items-center">
-            <Image src="/da.png" alt="Newton IPTV" width={600} height={600} className="h-48 w-auto object-contain" priority />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/da.png" alt="Newton IPTV" style={{height: '80px', width: 'auto'}} />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
