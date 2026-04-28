@@ -11,9 +11,9 @@ import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
 
 export const metadata: Metadata = {
-  title: { absolute: "Newton IPTV – Best IPTV Subscription UK | 20,000+ Channels" },
+  title: { absolute: "Newton IPTV – Best IPTV Subscription UK | Free Trial | 20,000+ Channels" },
   description:
-    "Newton IPTV – The UK's #1 IPTV subscription service. 20,000+ live channels, 80,000+ VOD, 4K quality. Try the best IPTV provider UK free for 24 hours.",
+    "Newton IPTV – UK's #1 IPTV provider. Get the best IPTV subscription UK with 20,000+ live channels, 80,000+ VOD in 4K Ultra HD. Start your free IPTV trial today – no credit card required.",
 };
 
 const orgJsonLd = {
