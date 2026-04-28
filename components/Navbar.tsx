@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between py-2">
           <Link href="/" className="flex items-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/da.png" alt="Newton IPTV" style={{height: '80px', width: 'auto'}} />
+            <img src="/da.png" alt="Newton IPTV" style={{height: "50px", width: "auto"}} />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
