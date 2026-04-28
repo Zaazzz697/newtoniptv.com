@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-4">
-              <Image src="/da.png" alt="Newton IPTV" width={160} height={54} className="h-12 w-auto object-contain brightness-0 invert" />
+              <Image src="/logo.png" alt="Newton IPTV" width={870} height={830} className="h-12 w-auto object-contain brightness-0 invert" />
             </Link>
             <p className="text-white/50 text-sm leading-6 max-w-xs">
               The UK&apos;s premium IPTV subscription service. 20,000+ live channels,
