@@ -116,17 +116,17 @@ export default function ChatWidget() {
           <div className="bg-brand-red px-4 py-3 flex items-center justify-between flex-shrink-0">
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 64 64">
-                  <rect x="30" y="1" width="4" height="7" rx="2" fill="white"/>
-                  <circle cx="32" cy="1" r="3" fill="white"/>
-                  <rect x="10" y="8" width="44" height="36" rx="8" fill="white" fillOpacity="0.95"/>
-                  <rect x="18" y="18" width="10" height="10" rx="3" fill="#e53e3e"/>
-                  <rect x="36" y="18" width="10" height="10" rx="3" fill="#e53e3e"/>
-                  <circle cx="21" cy="21" r="2" fill="white"/>
-                  <circle cx="39" cy="21" r="2" fill="white"/>
-                  <rect x="19" y="33" width="26" height="4" rx="2" fill="#e53e3e" fillOpacity="0.8"/>
-                  <rect x="4" y="18" width="6" height="12" rx="3" fill="white" fillOpacity="0.8"/>
-                  <rect x="54" y="18" width="6" height="12" rx="3" fill="white" fillOpacity="0.8"/>
+                <svg className="w-6 h-6" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="30" y="2" width="4" height="7" rx="2" fill="white"/>
+                  <circle cx="32" cy="2" r="3" fill="white"/>
+                  <rect x="10" y="9" width="44" height="36" rx="8" fill="white"/>
+                  <rect x="18" y="19" width="10" height="10" rx="3" fill="#e53e3e"/>
+                  <rect x="36" y="19" width="10" height="10" rx="3" fill="#e53e3e"/>
+                  <circle cx="21" cy="22" r="2" fill="white"/>
+                  <circle cx="39" cy="22" r="2" fill="white"/>
+                  <rect x="19" y="33" width="26" height="6" rx="3" fill="#e53e3e"/>
+                  <rect x="4" y="19" width="6" height="12" rx="3" fill="white"/>
+                  <rect x="54" y="19" width="6" height="12" rx="3" fill="white"/>
                 </svg>
               </div>
               <div>
@@ -215,28 +215,17 @@ export default function ChatWidget() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
           </svg>
         ) : (
-          /* Robot face icon */
-          <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-            {/* Antenna */}
+          <svg className="w-7 h-7" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="30" y="2" width="4" height="8" rx="2" fill="white"/>
             <circle cx="32" cy="2" r="3" fill="white"/>
-            {/* Head */}
-            <rect x="10" y="10" width="44" height="36" rx="8" fill="white" fillOpacity="0.95"/>
-            {/* Eyes */}
+            <rect x="10" y="10" width="44" height="36" rx="8" fill="white"/>
             <rect x="18" y="20" width="10" height="10" rx="3" fill="#e53e3e"/>
             <rect x="36" y="20" width="10" height="10" rx="3" fill="#e53e3e"/>
-            {/* Eye shine */}
             <circle cx="21" cy="23" r="2" fill="white"/>
             <circle cx="39" cy="23" r="2" fill="white"/>
-            {/* Mouth */}
-            <rect x="19" y="36" width="26" height="4" rx="2" fill="#e53e3e" fillOpacity="0.8"/>
-            {/* Mouth teeth */}
-            <rect x="23" y="36" width="4" height="4" rx="1" fill="white" fillOpacity="0.6"/>
-            <rect x="29" y="36" width="4" height="4" rx="1" fill="white" fillOpacity="0.6"/>
-            <rect x="35" y="36" width="4" height="4" rx="1" fill="white" fillOpacity="0.6"/>
-            {/* Ears */}
-            <rect x="4" y="20" width="6" height="12" rx="3" fill="white" fillOpacity="0.8"/>
-            <rect x="54" y="20" width="6" height="12" rx="3" fill="white" fillOpacity="0.8"/>
+            <rect x="19" y="34" width="26" height="6" rx="3" fill="#e53e3e"/>
+            <rect x="4" y="20" width="6" height="12" rx="3" fill="white"/>
+            <rect x="54" y="20" width="6" height="12" rx="3" fill="white"/>
           </svg>
         )}
       </button>
